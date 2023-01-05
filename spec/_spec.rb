@@ -18,4 +18,10 @@ describe Solver do
             expect(@solver.find_factorial(-29)).to eql("Negative numbers not allowed!")
         end
     end
+
+    context "#Given String argument" do
+        it "It should return a reversed string" do
+            expect(@solver.reverse_string("hello")).to eql("olleh")
+        end
+    end
 end
