@@ -22,6 +22,8 @@ class Solver
         "buzz"
       elsif arg % 3 == 0 && arg % 5 == 0
         "fizzbuzz"
+      else
+        arg.to_s
       end
     end
 end
