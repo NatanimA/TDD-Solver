@@ -10,4 +10,8 @@ class Solver
         end
       end
     end
+
+    def reverse_string(arg)
+        arg.reverse
+    end
 end
