@@ -14,4 +14,7 @@ class Solver
     def reverse_string(arg)
         arg.reverse
     end
+
+    def fizzbuzz(arg)
+    end
 end

@@ -24,4 +24,10 @@ describe Solver do
             expect(@solver.reverse_string("hello")).to eql("olleh")
         end
     end
+
+    context "#Given Integer argument" do
+        it "It should return 'fizz' when argument is divisible by 3" do
+          expect(@solver.fizzbuzz(6)).to eql('fizz')
+        end
+    end
 end
