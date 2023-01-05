@@ -1,10 +1,12 @@
 class Solver
     def find_factorial(arg)
-      unless arg < 0
+      unless arg.is_a? String
         if arg == 0
             1
-        else
+        elsif arg > 0
           arg.downto(1).reduce(:*)
+        else
+          "Negative numbers not allowed!"
         end
       end
     end
