@@ -18,6 +18,8 @@ class Solver
     def fizzbuzz(arg)
       if arg % 3 == 0 && arg % 5 != 0
         "fizz"
+      elsif arg % 3 != 0 && arg % 5 == 0
+        "buzz"
       end
     end
 end
