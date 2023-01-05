@@ -20,6 +20,8 @@ class Solver
         "fizz"
       elsif arg % 3 != 0 && arg % 5 == 0
         "buzz"
+      elsif arg % 3 == 0 && arg % 5 == 0
+        "fizzbuzz"
       end
     end
 end
