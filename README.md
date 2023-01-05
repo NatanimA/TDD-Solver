@@ -25,11 +25,6 @@ OPTIONAL SECTIONS:
 After you're finished please remove all the comments and instructions!
 -->
 
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
   <h3><b>Microverse README Template</b></h3>
 
 </div>
@@ -60,17 +55,17 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [TDD] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> This project implement a class with some methods by doing test-driven development (TDD) using unit tests with Rspec. 
 
-**[your_project__name]** is a...
+**[TDD]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+> Ruby
 
 <details>
   <summary>Client</summary>
@@ -123,6 +118,8 @@ After you're finished please remove all the comments and instructions!
 
 To get a local copy up and running, follow these steps.
 
+- git clone https://github.com/NatanimA/TDD-Solver.git
+
 ### Prerequisites
 
 In order to run this project you need:
@@ -131,6 +128,7 @@ In order to run this project you need:
 Example command:
 
 ```sh
+ cd my-project
  gem install rails
 ```
  -->
@@ -138,6 +136,8 @@ Example command:
 ### Setup
 
 Clone this repository to your desired folder:
+
+-git clone https://github.com/NatanimA/TDD-Solver.git
 
 <!--
 Example commands:
@@ -157,7 +157,7 @@ Example command:
 
 ```sh
   cd my-project
-  gem install
+  gem install rspec
 ```
 --->
 
@@ -205,17 +205,16 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Natanim Abesha**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/NatanimA)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/natanim-abesha-04a39823a)
 
-👤 **Author2**
+👤 **Emem Ekpo**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@ecekpo](https://https://github.com/ecekpo)
+- Twitter: [@ememcookey](https://twitter.com/ememcookey)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/emem-ekpo)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -225,9 +224,7 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+-  [ ] **[add new tests]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
