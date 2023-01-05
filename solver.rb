@@ -16,5 +16,8 @@ class Solver
     end
 
     def fizzbuzz(arg)
+      if arg % 3 == 0 && arg % 5 != 0
+        "fizz"
+      end
     end
 end
